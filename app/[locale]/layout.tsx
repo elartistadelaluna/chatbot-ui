@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black",
-    title: APP_DEFAULT_TITLE
+    title: APP_DEFAULT_TITLE,
     // startUpImage: [],
   },
   formatDetection: {
