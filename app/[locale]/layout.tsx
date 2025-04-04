@@ -100,11 +100,6 @@ export default async function RootLayout({
           >
             <Toaster richColors position="top-center" duration={3000} />
             <div className="bg-background text-foreground flex h-dvh flex-col items-center overflow-x-auto">
-              <img
-  src="/logoEB.png"
-  alt="Elite Body"
-  className="w-36 mt-4 mb-2"
-/>
               {session ? <GlobalState>{children}</GlobalState> : children}
             </div>
           </TranslationsProvider>
